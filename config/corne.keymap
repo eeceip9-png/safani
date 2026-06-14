@@ -6,68 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-/ {
-    chosen {
-        zmk,physical-layout = &corne_layout;
-    };
 
-    corne_layout: layout {
-        compatible = "zmk,physical-layout";
-        display-name = "Corne";
-
-        // Row 0
-        k00 { x = 0; y = 0; };
-        k01 { x = 1; y = 0; };
-        k02 { x = 2; y = 0; };
-        k03 { x = 3; y = 0; };
-        k04 { x = 4; y = 0; };
-        k05 { x = 5; y = 0; };
-
-        k06 { x = 10; y = 0; };
-        k07 { x = 11; y = 0; };
-        k08 { x = 12; y = 0; };
-        k09 { x = 13; y = 0; };
-        k0A { x = 14; y = 0; };
-        k0B { x = 15; y = 0; };
-
-        // Row 1
-        k10 { x = 0; y = 1; };
-        k11 { x = 1; y = 1; };
-        k12 { x = 2; y = 1; };
-        k13 { x = 3; y = 1; };
-        k14 { x = 4; y = 1; };
-        k15 { x = 5; y = 1; };
-
-        k16 { x = 10; y = 1; };
-        k17 { x = 11; y = 1; };
-        k18 { x = 12; y = 1; };
-        k19 { x = 13; y = 1; };
-        k1A { x = 14; y = 1; };
-        k1B { x = 15; y = 1; };
-
-        // Row 2
-        k20 { x = 0; y = 2; };
-        k21 { x = 1; y = 2; };
-        k22 { x = 2; y = 2; };
-        k23 { x = 3; y = 2; };
-        k24 { x = 4; y = 2; };
-        k25 { x = 5; y = 2; };
-
-        k26 { x = 10; y = 2; };
-        k27 { x = 11; y = 2; };
-        k28 { x = 12; y = 2; };
-        k29 { x = 13; y = 2; };
-        k2A { x = 14; y = 2; };
-        k2B { x = 15; y = 2; };
-
-        // Thumb cluster
-        k30 { x = 3; y = 3; };
-        k31 { x = 4; y = 3; };
-
-        k32 { x = 11; y = 3; };
-        k33 { x = 12; y = 3; };
-    };
-};
 / {
     combos {
         compatible = "zmk,combos";
