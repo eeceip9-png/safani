@@ -1,4 +1,9 @@
 #include "corne.dtsi"
+/ {
+    zmk_studio {
+        compatible = "zmk,studio";
+    };
+};
 
 &default_transform {
     col-offset = <6>;  
